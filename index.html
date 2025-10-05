@@ -1,14 +1,178 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8" />
-    <title>PHS Math Tournament</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>PHS Math Team</title>
+    <link rel="icon" href="static/icon.png">
+    <!-- <link rel="icon" href="static/icon.svg"> -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet"> <!-- maybe change ts later or smth -->
+    <script src="https://kit.fontawesome.com/73bd27aadc.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    Being redirected to <a href="https://www.princetonhsmath.org">https://www.princetonhsmath.org</a>
-    <script> window.location.href = "https://www.princetonhsmath.org"; </script>
+<body class="top">
+    <nav class="up">
+        <div id="nav-interior">
+            <div id="icon">
+                <a href=""><img class="icon" src="static/icon.png" /></a>
+                <h1 id="name">Princeton High School Math Team</h1>
+                <h1 id="name-short">PHSMT</h1>
+            </div>
+            <div id="nav-right">
+                <div id="links">
+                    <a href="#about">Index</a>
+                    <a href="#register">About</a>
+                    <a href="#about-us">Calendar</a>
+                    <a href="#sponsoring">Resources</a>
+                    <a href="#sponsoring">Sponsors</a>
+                </div>
+                <i id="menu" class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+    
+    <div id="top">
+        <div id="top-interior">
+            <h1>PHSMT</h1>
+            <div id="top-links">
+                <a href="#about">Index</a>
+                <a href="#register">About</a>
+                <a href="#about-us">Calendar</a>
+                <a href="#sponsoring">Resources</a>
+                <a href="#sponsoring">Sponsors</a>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div id="page">
+        <div class="section">
+            <h2 id="about">Welcome to the website of Princeton High School's Math Team!</h2>
+            <p>
+                filler text
+            </p>
+            </p>
+
+        <div class="section">
+            <h2 id="about-us">Leadership</h2>
+            PHSMT's Officers for 2025-2026!<br><br>
+            <div id="all-members">
+                <div class="pfp-img" id="emma" name="emma" tabindex="0">
+                    <h3>Emma</h3>
+                </div>
+                <div class="pfp-img" id="maiya" name="maiya" tabindex="0">
+                    <h3>Maiya</h3>
+                </div>
+                <div class="pfp-img" id="william" name="william" tabindex="0">
+                    <h3>Jonathan</h3>
+                </div>
+                <div class="pfp-img" id="jonathan" name="jonathan" tabindex="0">
+                    <h3>Oscar</h3>
+                </div>
+                <div class="pfp-img" id="alex" name="alex" tabindex="0">
+                    <h3>Alex</h3>
+                </div>
+                <div class="pfp-img" id="mateo" name="mateo" tabindex="0">
+                    <h3>Mateo</h3>
+                </div>
+            </div>
+
+            <div class="member-container" id="member-container">
+                <div id="name-container">
+                    <span id="prev-member" tabindex="0" class="nav-arrow fa-solid fa-arrow-left"></span>
+                    <h3 class="member-name">Emma Li</h3>
+                    <span id="next-member" tabindex="0" class="nav-arrow fa-solid fa-arrow-right"></span>
+                </div>
+                <br>
+                <div class="member-info active" id="member-emma" name="emma">
+                    <span class="member-role">Captain</span>
+                    <p>Emma is currently serving as our great, benevolent god-emperor for life. She's leading
+                        problem-writing, venue-acquisition, and general management for the competition.<br><br>
+                        Outside of PHSMT, Emma's helping organize another great event, <a href="https://hackphs.tech">HackPHS</a>!
+                    </p>
+                </div>
+
+                <div class="member-info" id="member-maiya" name="maiya">
+                    <span class="member-role">Captain</span>
+                    <p>Maiya's leading our sponsor relations efforts, reaching out to and ensuring that our sponsors get
+                        everything they need out of the event (and that the sponsors can help us make the event as good
+                        as it can be!). She's also helped write and test problems.
+                    </p>
+                </div>
+
+                <div class="member-info" id="member-jonathan" name="jonathan">
+                    <span class="member-role">Officer</span>
+                    <p>
+                        Jonathan's done a lot of the problem writing, and helped with content management for the
+                        website. He's also our "not poker" expert, who helps us stop participants and organizers from
+                        dangerous gambling-like activities.<br><br>
+
+                        Outside of PHSMT, Jonathan is an organizer for <a href="https://hackphs.tech"><b>HackPHS</b></a> (check it out)!
+                </div>
+                <div class="member-info" id="member-oscar" name="oscar">
+                    <span class="member-role">Problem Writer, Marketing, Web Developer</span>
+                    <p>Oscar's been involved in all parts of Princeton Math Tournament. He contributed a lot to the
+                        problem bank, helped with marketing, and helped a bit with the web development<br><br>
+                        Outside of PMT, Oscar's helping organize <a href="https://hackphs.tech">HackPHS</a> (check it out)!</p>
+                </div>
+
+                <div class="member-info" id="member-alex" name="alex">
+                    <span class="member-role">Officer</span>
+                    <p><a href="https://intrepidbird.me/">Alex</a> has jumped between every team as needed at the
+                        moment. He's written a lot of the problems, helped create and send out marketing, and
+                        contributed here and there to the website.</p>
+                </div>
+                <div class="member-info" id="member-mateo" name="mateo">
+                    <span class="member-role">Officer</span>
+                    <p>Mateo's played a really big role in writing problems and making marketing materials for PHSMT.
+                        He's also serving as our statistical games expert.</p>
+                </div>
+                <div class="member-info" id="member-william" name="william">
+                    <span class="member-role">Officer</span>
+                    <p>William's working on writing and consolidating the final list of problems for the tournament. He
+                        also serves as our team "safety" coordinator, ensuring that all members and participants feel
+                        that HackPHS is a safe, welcoming space for them.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2 id="sponsoring">Sponsor us!</h2>
+            <p>
+                PHSMT needs sponsors :(<br>
+                If you're interested in sponsoring us, please email <a
+                    href="mailto:team@phsmt.org">team@phsmt.org</a> for more info. We appreciate any help we
+                can get :)<br>
+            </p>
+            <h3>We offer 3 tiers of perks for sponsors:</h3>
+            <ul>
+                <li><b>Platinum:</b> All of the perks from gold, alongside a 30-minute sponsor event</li>
+                <li><b>Gold:</b> All the perks of silver, plus a sponsor mention in the opening ceremony</li>
+                <li><b>Silver:</b> Your company's name on the website and on all event merchanise</li>
+            </ul>
+            <p>
+                Please help us make great competitions by sponsoring! It really means a lot to us, and to all the
+                participants of the competition!<br><br>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div>© PHS Math Team 2025</div>
+        <div>
+            Contact us via:
+            <ul>
+                <li>Email: <a href="mailto:team@phsmt.org">team@phsmt.org</a></li>
+                <li>Text/Cell: <a href="tel:609-664-8809">(609) 664-8809</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
